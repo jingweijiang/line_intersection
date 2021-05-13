@@ -36,4 +36,7 @@ int main()
     Line line1(0,0,3,3);
     Line line2(2,0,2,2);
     std::cout << "is line1 and lane2 intersection ? " << intersection(line1,line2) << std::endl;
+    Line line3(2,0,2,1);
+    std::cout << "is line1 and lane3 intersection ? " << intersection(line1,line3) << std::endl;
+
 }
